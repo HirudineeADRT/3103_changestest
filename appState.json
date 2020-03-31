@@ -1,0 +1,258 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "86a3f173-86f3-4430-b0f4-cd8347fb40c0": {
+        "id": "86a3f173-86f3-4430-b0f4-cd8347fb40c0",
+        "parent": null,
+        "name": "3103_changestest.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "3103_changestest.js",
+        "cursor": {
+          "lineNumber": 23,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "0ccf5835-9f7f-40e9-a561-1fc49cf80a0e": {
+            "id": "0ccf5835-9f7f-40e9-a561-1fc49cf80a0e",
+            "name": "Test event",
+            "functionId": "86a3f173-86f3-4430-b0f4-cd8347fb40c0",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      },
+      "48fe7e06-741b-418a-aef7-4c5377980986": {
+        "id": "48fe7e06-741b-418a-aef7-4c5377980986",
+        "parent": null,
+        "name": "dir1",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "b089d412-fc28-4700-89f6-b5b8d4ba3093",
+          "f866b60a-f84a-43e8-869a-ed4bae72e685"
+        ],
+        "isRemovable": true,
+        "filePath": "dir1"
+      },
+      "b089d412-fc28-4700-89f6-b5b8d4ba3093": {
+        "id": "b089d412-fc28-4700-89f6-b5b8d4ba3093",
+        "parent": "48fe7e06-741b-418a-aef7-4c5377980986",
+        "name": "dir2",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "67e5e018-88c7-405f-beb7-8bcb975471a3",
+          "07b060d8-96aa-49a7-bfb4-12e719baf851"
+        ],
+        "isRemovable": true,
+        "filePath": "dir1/dir2"
+      },
+      "67e5e018-88c7-405f-beb7-8bcb975471a3": {
+        "id": "67e5e018-88c7-405f-beb7-8bcb975471a3",
+        "parent": "b089d412-fc28-4700-89f6-b5b8d4ba3093",
+        "name": "dir3",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "ab3e969f-012c-406d-aff5-b255138d051e",
+          "04bbf4ec-832a-49dd-b2a7-fa637765f89a"
+        ],
+        "isRemovable": true,
+        "filePath": "dir1/dir2/dir3"
+      },
+      "ab3e969f-012c-406d-aff5-b255138d051e": {
+        "id": "ab3e969f-012c-406d-aff5-b255138d051e",
+        "parent": "67e5e018-88c7-405f-beb7-8bcb975471a3",
+        "name": "dir4",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "5e246465-71a5-4b37-8ddb-459f75f9b56d",
+          "ed180c90-7016-49c6-b07c-7458493a967c"
+        ],
+        "isRemovable": true,
+        "filePath": "dir1/dir2/dir3/dir4"
+      },
+      "5e246465-71a5-4b37-8ddb-459f75f9b56d": {
+        "id": "5e246465-71a5-4b37-8ddb-459f75f9b56d",
+        "parent": "ab3e969f-012c-406d-aff5-b255138d051e",
+        "name": "add4.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dir1/dir2/dir3/dir4/add4.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 27
+        }
+      },
+      "04bbf4ec-832a-49dd-b2a7-fa637765f89a": {
+        "id": "04bbf4ec-832a-49dd-b2a7-fa637765f89a",
+        "parent": "67e5e018-88c7-405f-beb7-8bcb975471a3",
+        "name": "add3.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dir1/dir2/dir3/add3.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 29
+        }
+      },
+      "07b060d8-96aa-49a7-bfb4-12e719baf851": {
+        "id": "07b060d8-96aa-49a7-bfb4-12e719baf851",
+        "parent": "b089d412-fc28-4700-89f6-b5b8d4ba3093",
+        "name": "add2.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dir1/dir2/add2.js",
+        "cursor": {
+          "lineNumber": 3,
+          "column": 33
+        }
+      },
+      "f866b60a-f84a-43e8-869a-ed4bae72e685": {
+        "id": "f866b60a-f84a-43e8-869a-ed4bae72e685",
+        "parent": "48fe7e06-741b-418a-aef7-4c5377980986",
+        "name": "add1.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dir1/add1.js",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 35
+        }
+      },
+      "f43cebf8-06ee-4364-a4d5-7172b7bed61b": {
+        "id": "f43cebf8-06ee-4364-a4d5-7172b7bed61b",
+        "parent": null,
+        "name": "add.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "add.js",
+        "cursor": {
+          "lineNumber": 5,
+          "column": 37
+        }
+      },
+      "ed180c90-7016-49c6-b07c-7458493a967c": {
+        "id": "ed180c90-7016-49c6-b07c-7458493a967c",
+        "parent": "ab3e969f-012c-406d-aff5-b255138d051e",
+        "name": "importfile.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dir1/dir2/dir3/dir4/importfile.js",
+        "cursor": {
+          "lineNumber": 8,
+          "column": 25
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "abdc9c3c-0c78-4d72-b6c9-88b3e4260b7c": {
+            "id": "abdc9c3c-0c78-4d72-b6c9-88b3e4260b7c",
+            "name": "Test event",
+            "functionId": "ed180c90-7016-49c6-b07c-7458493a967c",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "86a3f173-86f3-4430-b0f4-cd8347fb40c0",
+      "ed180c90-7016-49c6-b07c-7458493a967c",
+      "f43cebf8-06ee-4364-a4d5-7172b7bed61b"
+    ],
+    "currentFileId": "86a3f173-86f3-4430-b0f4-cd8347fb40c0",
+    "resources": {
+      "s3hirutest": {
+        "name": "s3hirutest",
+        "type": "S3",
+        "config": {
+          "mode": 0,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "hirutest"
+          }
+        }
+      },
+      "ebResource": {
+        "name": "ebResource",
+        "type": "EventBridge",
+        "config": {
+          "selectedRegion": "us-east-1"
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "3103_changestest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "language": "nodejs",
+    "lastSave": 1585654361944
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "3103_changestest",
+      "url": "https://github.com/HirudineeADRT/3103_changestest"
+    }
+  }
+}
