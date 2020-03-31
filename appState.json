@@ -11,7 +11,7 @@
         "isRemovable": true,
         "filePath": "3103_changestest.js",
         "cursor": {
-          "lineNumber": 23,
+          "lineNumber": 1,
           "column": 1
         },
         "config": {
@@ -197,18 +197,11 @@
         "name": "s3hirutest",
         "type": "S3",
         "config": {
-          "mode": 0,
+          "mode": 1,
           "bucket": {
             "region": "us-east-1",
             "name": "hirutest"
           }
-        }
-      },
-      "ebResource": {
-        "name": "ebResource",
-        "type": "EventBridge",
-        "config": {
-          "selectedRegion": "us-east-1"
         }
       }
     },
@@ -246,7 +239,7 @@
     "platform": "AWS",
     "platformRegions": {},
     "language": "nodejs",
-    "lastSave": 1585654361944
+    "lastSave": 1585654497471
   },
   "VCS_STATE": {
     "provider": "GitHub",
